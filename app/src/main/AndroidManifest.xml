@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Operaciones"
         tools:targetApi="31">
         <activity
+            android:name=".Dividir"
+            android:exported="false" />
+        <activity
             android:name=".sumar"
             android:exported="false" />
         <activity
