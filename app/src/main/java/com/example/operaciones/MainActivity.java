@@ -30,5 +30,12 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+    public void irresta(View view){
+
+        Intent intent = new Intent (this,Restar.class);
+        view.getContext().startActivity(intent);
+
+
+    }
 
 }
