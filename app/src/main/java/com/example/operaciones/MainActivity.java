@@ -37,5 +37,12 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+    public void irMultiplicacio(View view){
+
+        Intent intent = new Intent (this, Multiplicar.class);
+        view.getContext().startActivity(intent);
+
+
+    }
 
 }
